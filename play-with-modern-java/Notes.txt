@@ -1,0 +1,36 @@
+
+
+
+
+why we need functional-programming ?
+
+
+	- can write concise code
+	- can implement function composition
+	    i.e build complex algorithms with simple individual functions
+	- can enable Lazy computation
+	
+	
+	-----------------------------------------------------
+	// Functional Programming Principles
+	-----------------------------------------------------
+	
+	
+	=> function is first-class citizen
+	
+	- A function can be stored in a variable or value
+	- A parameter of a function can be a function
+    - The return value of a function can be a function
+    
+    
+    
+   A higher order function
+
+        - A function whose return value is a function
+        - A function with a parameter that is a function
+    
+    
+     why we need HOF ?
+     
+     	- function composition
+	    i.e build complex algorithms with simple individual functions

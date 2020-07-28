@@ -13,10 +13,12 @@ import examples.ch03.Dish;
 public class NumericStreams {
 
   public static void main(String... args) {
-    List<Integer> numbers = Arrays.asList(3, 4, 5, 1, 2);
+   
+	  List<Integer> numbers = Arrays.asList(3, 4, 5, 1, 2);
 
     Arrays.stream(numbers.toArray())
         .forEach(System.out::println);
+    
     int calories = menu.stream()
         .mapToInt(Dish::getCalories)
         .sum();

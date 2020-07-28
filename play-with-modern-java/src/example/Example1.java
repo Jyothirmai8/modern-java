@@ -33,6 +33,8 @@ public class Example1 {
 		inventory.sort(comparing(Apple::getWeight));
 		
 		
+		
+		
 
 	}
 

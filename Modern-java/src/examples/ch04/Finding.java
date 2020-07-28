@@ -9,7 +9,8 @@ import examples.ch03.Dish;
 public class Finding {
 
   public static void main(String... args) {
-    if (isVegetarianFriendlyMenu()) {
+    
+	if (isVegetarianFriendlyMenu()) {
       System.out.println("Vegetarian friendly");
     }
 

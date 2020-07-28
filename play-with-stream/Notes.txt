@@ -1,0 +1,11 @@
+
+
+
+ working with stream API
+ 
+  3 steps
+  
+  
+  ==> A datasource ( collection , IO , resultset,.... )
+  ==> A chain of intermediate operations that for, a stream pipeline
+  ==> A terminal operation that executes the stream pipeline and produces result.

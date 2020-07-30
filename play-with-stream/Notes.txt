@@ -9,3 +9,57 @@
   ==> A datasource ( collection , IO , resultset,.... )
   ==> A chain of intermediate operations that for, a stream pipeline
   ==> A terminal operation that executes the stream pipeline and produces result.
+  
+  
+  
+  -------------------------------------------------------------------------------
+  
+  
+  
+  java 1.0  ==> Thread
+  java 1.5  ==> ExecutorService   i.e thread-pool
+  
+  java 1.7
+  
+  		 work stealing thread pool ==> ForkJoinFramework 
+  		
+  		 FJ common-pool  ==> number of threads  = number of cpu
+  		 
+  		 
+  		 
+ -------------------------------------------------------------------------------
+ 
+
+  
+ 
+ How many threads can i create in java appln ?
+ 
+ 	
+ 
+ 
+                       # of cpus      (8)
+ # of threads     <=  -----------------------
+                      blocking-factor  1 , 0.5
+ 
+ 
+ 
+                      0 <  blocking-factor < 1
+                      
+                           
+ 
+ 
+ -------------------------------------------------------------------------------
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  		 

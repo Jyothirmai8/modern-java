@@ -61,7 +61,7 @@ interface II {
 
 	int PUB = 12;
 
-	private void pri() {
+	default void pri() {
 
 	}
 

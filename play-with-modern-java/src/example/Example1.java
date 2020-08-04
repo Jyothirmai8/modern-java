@@ -32,6 +32,8 @@ public class Example1 {
 		//way-4:
 		inventory.sort(comparing(Apple::getWeight));
 		
+		inventory.forEach(System.out::println);
+		
 		
 		
 		

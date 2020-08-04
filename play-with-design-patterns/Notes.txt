@@ -1,0 +1,11 @@
+
+
+
+
+1- Strategy pattern
+
+2- Observer pattern
+
+
+	
+	 	

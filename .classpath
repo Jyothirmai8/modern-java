@@ -2,7 +2,6 @@
 <classpath>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="src" path="datastructures/src"/>
-	<classpathentry kind="src" path="Modern-java/src"/>
 	<classpathentry kind="src" path="play-with-modern-java/src"/>
 	<classpathentry kind="src" path="play-with-stream/src"/>
 	<classpathentry kind="output" path="Modern-java/bin"/>

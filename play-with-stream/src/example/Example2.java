@@ -10,7 +10,6 @@ public class Example2 {
 		List<Integer> integers = List.of(1, 2, 3, 4, 5, 6, 7, 8, 9, 10);
 
 		// External Iteration
-
 		// way-1
 		for (int i = 0; i < integers.size(); i++) {
 			System.out.println(integers.get(i));
